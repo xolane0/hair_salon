@@ -1,0 +1,930 @@
+
+/*Service page*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif,Arial, Helvetica, sans-serif,"Poppins", sans-serif,sans-serif;
+}
+
+.link2{
+  text-decoration: none;
+
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  align-items: center;
+  background-color: black;
+}/* CSS for header */
+
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+
+/* CSS for main element */
+.intro {
+  background-image:url(R.jpeg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;''
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.achievements .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+.achievements .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.achievements .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
+body{
+  background-color: black;
+  color:#df8080;
+  font-size=1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+
+h1{
+  width: 80%;
+  text-align: center;
+  color: green;
+  text-decoration:underline;
+}
+
+h2{
+  color: wheat;
+  font-family:Geogia;
+  font-size:40px;
+  text-decoration:underline;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin: 1em 0;
+}
+
+h4{
+  text-align: center;
+  color: whitesmoke;
+}
+
+h5{
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+p {
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  font-family:curtive;
+}
+
+ul{
+    font-size: large;
+}
+
+a:link, a:visited {
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: none;
+  margin: 40px auto;
+}
+
+.our-work{
+  color: green;
+  margin: 0%;
+  left: 0%;
+}
+.about-us{
+  
+  height: auto;
+  width: 100%;
+  padding: 90px 0;
+  color: black;
+  background: none;
+}
+
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  background-color: maroon;
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: whitesmoke;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+textarea{
+  width: 80%;
+  height: 100%;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+select{
+  width: 80%;
+}
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+ 
+  border-radius: 5px;
+  background-color: purple;
+  padding: 20px;
+  border-bottom: 2px solid none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: none;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-position: 0 100%;
+}
+
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+
+
+
+
+
+
+.contact-left{
+  flex-basis: 55%;
+  padding: 40px 60px;
+}
+
+
+.contact-right{
+  background-image: url('lesotho.jpg');
+  flex-basis: 45%;
+  height: 100vh;
+  padding: 40px 60px;
+}
+
+
+img{
+      
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form{
+  background-color: none;
+}
+
+.container{
+  border: none;
+  height: 100vh;
+  width: 80%;
+  margin: 50px auto;
+  background: green;
+  display: flex;
+  padding: 0 16px;
+}
+
+.container button{
+  float left;
+  background-color: red;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+  
+.container button:hover {
+  background-color: none;
+  }
+
+
+
+.contact-right img{
+  flex-basis: 45%;
+  border: none;
+}
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #d7d6ee;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #888484;
+    }
+
+.column {
+float: left;
+width: 33.3%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+.card {
+color: red;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+margin: 8px;
+}
+
+.about-section {
+padding: 50px;
+text-align: center;
+background-color: #000;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;''
+height: 520px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.about-section p{
+  color: red;
+}
+
+.title {
+color: white;
+}
+
+.button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: black;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #f6f6f9;
+  font-size: 18px;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #4070f4;
+}
+
+
+.wrapper{
+  width: 900px;
+  margin: 5% auto;
+}
+.single-price{
+  width: 33%;
+  background: #262626;
+  float: left;
+  margin-top: 2%;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+  text-align: center;
+  transition: 0.9s;
+}
+.price{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #da4357;
+  margin: 5% auto 0 auto;
+  text-align: center;
+}
+.deals{
+  margin-top: 10%;
+}
+.single-price h1{
+  font-size: 18px;
+  color: #fff;
+  line-height: 3;
+  text-transform: uppercase;
+}
+.price h2{
+  font-size: 38px;
+  color: #fff;
+}
+.deals h4{
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+}
+.single-price:hover{
+  background: #da4357;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,1);
+  transform: scaleX(1.1);
+  z-index: 1;
+  border-radius: 25px;
+}
+.single-price:hover .price{
+  border-color: #fff;
+}
+.single-price a{
+  text-decoration: none;
+  background: #da4357;
+  color: #fff;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.single-price:hover a{
+  background: #262626;
+  color: #fff; 
+}
+ 
+.link2{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+.link2:hover,.link2:active{
+    background-color: green;
+  color: white;
+}
+#h41 {
+
+  box-sizing: border-box;
+  margin:auto;
+  overflow: hidden;
+
+padding-top: 90px;
+padding-bottom: 80px;
+width: 40%;
+text-align: center;
+line-height: 1.6;
+}
+
+#h42 {
+width: 60%;
+text-align: center;
+}
+
+
+
+
+.inputBox {
+display: inline-block;
+position: relative;
+width: 375px;
+}
+
+.inputBox input {
+width: 100%;
+padding: 10px;
+border: 2px solid #1e90ff;
+background: #bfc2c4;
+border-radius: 5px;
+outline: none;
+color: red;
+font-size: 1em;
+transition: 0.5s;
+}
+
+.inputBox span {
+position: absolute;
+left: 0;
+padding: 10px;
+pointer-events: none;
+font-size: 1em;
+color: red;
+text-transform: uppercase;
+transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+color: red;
+transform: translateX(10px) translateY(-7px);
+font-size: 0.65em;
+padding: 0 10px;
+background: #bfc2c4;
+border-left: 1px solid red;
+border-right: 1px solid red;
+letter-spacing: 0.2em;
+}
+
+.inputBox input:valid,
+.inputBox input:foucs {
+border: 1px solid red;
+}
+
+#note {
+font-size: small;
+align-content: center;
+}
+
+.inputBox input.time {
+margin: 5px 0 20px 0;
+}
+
+.inputBox textarea {
+width: 150%;
+padding: 10px;
+margin-top: 20px;
+margin-left: 0px;
+border: 2px solid #1e90ff;
+background: #bfc2c4;
+border-radius: 5px;
+outline: none;
+color: red;
+font-size: 1em;
+transition: 0.5s;
+height: 200px;
+
+}
+
+.inputGroup{
+  text-align: justify;
+  
+}
+
+
+#property-type {
+width: 50%;
+padding: 10px;
+border: 2px solid #1e90ff;
+background: #bfc2c4;
+border-radius: 5px;
+outline: none;
+color: red;
+font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+/* styles for screens smaller than 600px */
+#h41, #h42 {
+font-size: 20px;
+text-align: center;
+}
+}```
+
+
+
+.font-control{
+  width: 80%;
+  height: calc(2rem + 2px);
+  padding: 375rem .75rem;
+  font-size: 1em;
+  line-height: 1.5;
+  color: red;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.order{
+  text-align: auto;
+}
+
+.button1{
+  float: right;
+  color: white;
+}
+
+.single-price {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px; /* Optional: Adjust spacing for readability */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Add individual background images for each .single-price */
+.single-price:nth-child(1) {
+  background-image: url('OIP6.jpeg'); /* Replace with your actual image URL */
+}
+
+.single-price:nth-child(2) {
+  background-image: url('OIP3.jpeg'); /* Replace with your actual image URL */
+}
+
+.single-price:nth-child(3) {
+  background-image: url('OIP5.jpeg'); /* Replace with your actual image URL */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+

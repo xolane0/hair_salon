@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Full-page background image */
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('OIP4.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    .header {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+    }
+
+    .header h2 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .link a {
+      margin: 0 15px;
+      color: #6d4c41;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6d4c41;
+      margin-top: 30px;
+    }
+
+    .location, .contact-form {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 600px;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form select,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #6d4c41;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #5a392f;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .footer .links a {
+      margin: 0 10px;
+      color: #ffc107;
+      font-size: 1.2rem;
+    }
+
+    .footer .links a:hover {
+      color: #ffb300;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h2>DO IT HAIR SALON</h2>
+    <div class="link">
+      <a href="index.html">Home page</a>
+      <a href="Aboutuspage.html">About us</a>
+      <a href="Servicepage.html">Service page</a>
+      <a href="Blogpage.html">Blog page</a>
+      <a href="contactus.html">Contact</a>
+    </div>
+  </header>
+
+  <h1>Contact us</h1>
+
+  <div class="location">
+    <h6>LOCATION</h6>
+    <p>Lesotho</p>
+    <p>Maseru 100</p>
+    <p>Pioneer Rd, Pioneer Mall</p>
+    <div class="2link">
+      <p>Contact us on <a href="tel:+26652587094">call</a></p>
+      <p>Send an Email on <a href="mailto:doithairsalon@gmail.com">doithairsalon@gmail.com</a></p>
+    </div>
+    <h6>OPENING HOURS</h6>
+    <p>Mon-Fri: 09:00 AM - 05:00 PM</p>
+  </div>
+
+  <div class="container">
+    <div class="contact-left">
+      <div class="contact-form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required autofocus>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required autofocus>
+        <label for="continent">Continent</label>
+        <select id="continent" name="continent">
+          <option value="africa">Africa</option>
+          <option value="antarctica">Antarctica</option>
+          <option value="asia">Asia</option>
+          <option value="australia">Australia</option>
+          <option value="europe">Europe</option>
+          <option value="north-america">North America</option>
+          <option value="south-america">South America</option>
+        </select>
+        <input type="text" name="Email" placeholder="Email address.." required autofocus>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required autofocus></textarea>
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="copy">&copy; 2025 DO IT HAIR SALON</div>
+    <div class="links">
+      <span>Social Links</span>
+      <a href="https://web.facebook.com/114401687137049/posts/d41d8cd9/302217568355459/?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/lesotho_tours/status/1488147320285896704"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/explore/topics/2115445115180950/lesotho-travel-tourism/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>

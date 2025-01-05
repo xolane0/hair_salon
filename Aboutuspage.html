@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DO IT HAIR SALON</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    /* Navigation Bar */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: gray;
+      padding: 20px;
+      color: white;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      color: #ffc107;
+    }
+
+    .title span {
+      color: #fff;
+    }
+
+    .menu {
+      list-style-type: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .menu a {
+      padding: 10px 15px;
+      background-color: #0c0c0b;
+      color: wheat;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: green;
+    }
+
+    /* About Section */
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+    }
+
+    .about .image {
+      width: 45%;
+      background-image: url('OIP7.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    .about-content {
+      width: 50%;
+    }
+
+    .about-content h1 {
+      font-size: 2.5rem;
+      color: #6d4c41;
+    }
+
+    .about-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin: 20px 0;
+    }
+
+    .about-content button {
+      padding: 10px 20px;
+      background-color: #6d4c41;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .about-content button:hover {
+      background-color: #5a392f;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer .address {
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="container"> 
+    <div class="nav-bar">
+      <h1 class="title">DO<span> IT</span> HAIR <span>SALON</span></h1>
+      <ul class="menu">
+        <a href="index.html">Home</a>
+        <a href="Aboutuspage.html">About Us</a>
+        <a href="Servicepage.html">Services</a>
+        <a href="Blogpage.html">Blog</a>
+        <a href="contactus.html">Contact</a>
+      </ul>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="image"></div>
+      <div class="about-content">
+        <h1>Welcome to DO IT HAIR SALON</h1>
+        <p>At DO IT HAIR SALON, we bring beauty and confidence to our clients with exceptional hair care services. Whether you're looking for a fresh cut, a trendy hairstyle, or a luxurious treatment, we are here to make you shine. Our professional stylists are dedicated to providing the best experience tailored to your needs.</p>
+        <button type="button"><a href="Servicepage.html" style="color: white;">View Services</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="copy">
+        <div class="address">
+          Lesotho, Maseru 100<br>
+          Pioneer Rd, Maseru Mall<br>
+          &copy; 2025 DO IT HAIR SALON
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
